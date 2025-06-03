@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Table</title>
+
+    <!-- Tailwind CSS -->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- Font Awesome-->
+      <script src="https://kit.fontawesome.com/1ad3c4afdd.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100">
+    
+    <div class="overflow-x-auto p-6 min-h-screen">
+        <h1 class="text-3xl font-bold mb-4 text-center">E-commerce</h1>
+
+        <table class="min-w-full bg-white shadow-lg rounded-lg overflow-hidden">
+            <thead class="bg-gray-800 text-white">
+                <tr>
+                    <th class="py-3 px-4 text-left">#</th>
+                    <th class="py-3 px-4 text-left">Platform</th>
+                    <th class="py-3 px-4 text-left">Icon</th>
+                    <th class="py-3 px-4 text-left">Product Name</th>
+                    <th class="py-3 px-4 text-left">Category</th>
+                    <th class="py-3 px-4 text-left">Description</th>
+                </tr>
+            </thead>
+            <tbody class="text-gray-700">
+                <!-- Product Rows -->
+                 <tr class="border-b"><td class="py-3 px-4">1</td><td class="py-3 px-4">Amazon</td><td class="py-3 px-4"><i class="fab fa-amazon text-orange-600 text-2xl"></i></td><td class="py-3 px-4">Echo Dot</td><td class="py-3 px-4">Electronics</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>Smart speaker</li><li>Alexa-enabled</li><li>Voice control</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">2</td><td class="py-3 px-4">eBay</td><td class="py-3 px-4"><i class="fab fa-ebay text-blue-500 text-2xl"></i></td><td class="py-3 px-4">Apple Watch</td><td class="py-3 px-4">Accessories</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>Series 8</li><li>Fitness tracking</li><li>Waterproof</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">3</td><td class="py-3 px-4">Alibaba</td><td class="py-3 px-4"><img src="alibaba.png" alt="Company Logo" class="w-12 h-12 mr-3"></td><td class="py-3 px-4">Wireless Earbuds</td><td class="py-3 px-4">Electronics</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>Bluetooth 5.0</li><li>Noise cancelling</li><li>Touch control</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">4</td><td class="py-3 px-4">Jumia</td><td class="py-3 px-4"><img src="jumia.png" alt="Jumia" class="w-12 h-12 mr-3"></td><td class="py-3 px-4">Samsung Galaxy A14</td><td class="py-3 px-4">Phones</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>6.6" screen</li><li>64GB storage</li><li>Long battery life</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">5</td><td class="py-3 px-4">Amazon</td><td class="py-3 px-4"><i class="fab fa-amazon text-orange-600 text-2xl"></i></td><td class="py-3 px-4">Kindle Paperwhite</td><td class="py-3 px-4">Electronics</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>6.8” display</li><li>Waterproof</li><li>Weeks of battery</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">6</td><td class="py-3 px-4">eBay</td><td class="py-3 px-4"><i class="fab fa-ebay text-blue-500 text-2xl"></i></td><td class="py-3 px-4">Nike Air Max</td><td class="py-3 px-4">Footwear</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>Men’s shoes</li><li>Comfort design</li><li>Original brand</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">7</td><td class="py-3 px-4">Alibaba</td><td class="py-3 px-4"><img src="alibaba.png" alt="Company Logo" class="w-12 h-12 mr-3"></td><td class="py-3 px-4">Bluetooth Speaker</td><td class="py-3 px-4">Audio</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>High quality sound</li><li>Portable</li><li>Rechargeable</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">8</td><td class="py-3 px-4">Jumia</td><td class="py-3 px-4"><img src="jumia.png" alt="Jumia" class="w-12 h-12 mr-3"></td><td class="py-3 px-4">Hisense Smart TV</td><td class="py-3 px-4">Electronics</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>43” display</li><li>Smart apps</li><li>HD Ready</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">9</td><td class="py-3 px-4">Amazon</td><td class="py-3 px-4"><i class="fab fa-amazon text-orange-600 text-2xl"></i></td><td class="py-3 px-4">Fire HD Tablet</td><td class="py-3 px-4">Electronics</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>10.1” screen</li><li>32GB storage</li><li>Dual cameras</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">10</td><td class="py-3 px-4">eBay</td><td class="py-3 px-4"><i class="fab fa-ebay text-blue-500 text-2xl"></i></td><td class="py-3 px-4">Canon EOS Camera</td><td class="py-3 px-4">Cameras</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>High resolution</li><li>DSLR quality</li><li>Free lens</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">11</td><td class="py-3 px-4">Alibaba</td><td class="py-3 px-4"><img src="alibaba.png" alt="Company Logo" class="w-12 h-12 mr-3"></td><td class="py-3 px-4">Solar Lamp</td><td class="py-3 px-4">Home</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>Rechargeable</li><li>LED bulbs</li><li>Eco-friendly</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">12</td><td class="py-3 px-4">Jumia</td><td class="py-3 px-4"><img src="jumia.png" alt="Jumia" class="w-12 h-12 mr-3"></td><td class="py-3 px-4">Flash Iron</td><td class="py-3 px-4">Home Appliance</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>Energy saving</li><li>Non-stick soleplate</li><li>Durable</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">13</td><td class="py-3 px-4">Amazon</td><td class="py-3 px-4"><i class="fab fa-amazon text-orange-600 text-2xl"></i></td><td class="py-3 px-4">Ring Video Doorbell</td><td class="py-3 px-4">Home Security</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>1080p camera</li><li>Motion alerts</li><li>Wi-Fi enabled</li></ul></td></tr>
+        <tr class="border-b"><td class="py-3 px-4">14</td><td class="py-3 px-4">eBay</td><td class="py-3 px-4"><i class="fab fa-ebay text-blue-500 text-2xl"></i></td><td class="py-3 px-4">GoPro Hero 10</td><td class="py-3 px-4">Cameras</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>5.3K video</li><li>Waterproof</li><li>HyperSmooth</li></ul></td></tr>
+        <tr><td class="py-3 px-4">15</td><td class="py-3 px-4">Alibaba</td><td class="py-3 px-4"><img src="alibaba.png" alt="Company Logo" class="w-12 h-12 mr-3"></td><td class="py-3 px-4">Fitness Tracker</td><td class="py-3 px-4">Wearables</td><td class="py-3 px-4"><ul class="list-disc pl-5"><li>Heart rate monitor</li><li>Sleep tracking</li><li>Waterproof</li></ul></td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
